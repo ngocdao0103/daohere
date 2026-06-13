@@ -1,1 +1,1 @@
-export const API_URL = 'https://daohere.vercel.app/';
+export const API_URL = 'https://daohere.vercel.app';
