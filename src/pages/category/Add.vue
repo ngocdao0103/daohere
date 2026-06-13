@@ -25,7 +25,7 @@ const create = async () => {
         name: name.value,
         note: note.value
     }
-    if (meta.valid) {
+    if (!meta.valid) {
         const result = await categoryService.create(category);
         if (result.status === 201) {
             router.push('/');
